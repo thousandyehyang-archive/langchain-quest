@@ -24,6 +24,15 @@ body {
   background-size: cover; /* 화면에 맞게 비율 유지 */
 }
 
+.parrot-icon {
+  width: 6vw; /* 화면 너비의 6% */
+  height: auto; /* 비율 유지 */
+  vertical-align: middle;
+  margin-right: 1vw;
+  max-width: 48px; /* 너무 커지지 않도록 제한 */
+  transition: width 0.2s ease;
+}
+
 /* 텍스트 섹션 */
 .text-section {
   padding: 3rem 1.5rem;
