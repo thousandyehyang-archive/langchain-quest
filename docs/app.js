@@ -10,6 +10,7 @@ async function main() {
     const url = "http://127.0.0.1:3000";
     const formData = new FormData(document.querySelector("#explore-form"));
     const text = formData.get("text");
+
     const response = await fetch(url, {
       method: "POST",
       body: JSON.stringify({
@@ -22,18 +23,18 @@ async function main() {
 
     const json = await response.json();
 
-    // 로딩을 추가했다가 종료시 없애는...
-    spinner.remove();
-
     const { image, desc } = json;
 
     const explore_text = document.querySelector("#explore-text");
     explore_text.innerHTML = "";
+
     const imageTag = document.createElement("img");
     imageTag.classList.add("img-fluid");
     imageTag.src = image;
+
     const descTag = document.createElement("p");
     descTag.textContent = desc;
+
     explore_text.appendChild(imageTag);
     explore_text.appendChild(descTag);
   }
