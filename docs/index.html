@@ -61,6 +61,37 @@
     />
   </head>
   <body class="bg-light">
+    <!-- 내비게이션 바 추가 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">천혜향의 랭체인</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">홈</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#explore-text">탐험하기</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">문의하기</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <!-- 배너 이미지 섹션 -->
     <header class="header-banner"></header>
 
@@ -95,7 +126,7 @@
           탐험 시작
         </button>
       </form>
-
+      <br />
       <section id="explore-text"></section>
     </div>
 
