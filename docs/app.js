@@ -7,7 +7,7 @@ async function main() {
     spinner.classList.add("spinner-border");
     document.querySelector("#explore-text").appendChild(spinner);
 
-    const url = "http://127.0.0.1:3000";
+    const url = "https://thousandhyehyang-langchain-darong.glitch.me";
     const formData = new FormData(document.querySelector("#explore-form"));
     const text = formData.get("text");
 
