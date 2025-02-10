@@ -33,6 +33,16 @@ body {
   transition: width 0.2s ease;
 }
 
+.custom-btn {
+  display: inline-block;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 1.25rem;
+  padding: 10px 20px;
+  word-break: break-word; /* 단어를 강제로 줄바꿈 */
+  width: 100px; /* 버튼의 고정 너비를 지정 */
+}
+
 /* 텍스트 섹션 */
 .text-section {
   padding: 3rem 1.5rem;
