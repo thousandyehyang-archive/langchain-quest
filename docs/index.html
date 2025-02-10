@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>천혜향의 랭체인</title>
 
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- 사용자 정의 스타일 -->
+    <link rel="stylesheet" href="style.css" />
+
     <!-- 파비콘 -->
     <link
       rel="icon"
@@ -22,45 +31,61 @@
     <meta name="apple-mobile-web-app-title" content="천혜향" />
     <link rel="manifest" href="./assets/site.webmanifest" />
 
-    <!-- OG 태그 -->
-    <head>
-      <!-- 기본 메타 정보 -->
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>천혜향의 랭체인 삐룩삐룩!</title>
-      <meta name="description" content="당신만을 위한 랭체인이다 삐룩삐룩!" />
+    <!-- Open Graph 메타 태그 -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="천혜향의 랭체인" />
+    <meta
+      property="og:description"
+      content="당신만을 위한 앵무새, 랭체인이다 삐룩삐룩!"
+    />
+    <meta
+      property="og:image"
+      content="https://github.com/thousandyehyang-archive/langchain-quest/blob/main/docs/assets/parrot-og.png?raw=true"
+    />
+    <meta
+      property="og:url"
+      content="https://thousandyehyang-archive.github.io/langchain-quest/"
+    />
+    <meta property="og:site_name" content="천혜향의 랭체인" />
 
-      <!-- Open Graph 태그 -->
-      <meta property="og:type" content="website" />
-      <meta property="og:title" content="천혜향의 랭체인" />
-      <meta
-        property="og:description"
-        content="당신만을 위한 앵무새, 랭체인이다 삐룩삐룩!"
-      />
-      <meta
-        property="og:image"
-        content="https://github.com/thousandyehyang-archive/langchain-quest/blob/main/docs/assets/parrot-og.png?raw=true
-      "
-      />
-      <meta
-        property="og:url"
-        content="https://thousandyehyang-archive.github.io/langchain-quest/"
-      />
-      <meta property="og:site_name" content="천혜향의 랭체인" />
-
-      <!-- 트위터 카드 메타 태그 -->
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="천혜향의 랭체인" />
-      <meta
-        name="twitter:description"
-        content="당신만을 위한 앵무새, 랭체인이다 삐룩삐룩!"
-      />
-      <meta
-        name="twitter:image"
-        content="https://github.com/thousandyehyang-archive/langchain-quest/blob/main/docs/assets/parrot-og.png?raw=true
-        "
-      />
-    </head>
+    <!-- 트위터 카드 메타 태그 -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="천혜향의 랭체인" />
+    <meta
+      name="twitter:description"
+      content="당신만을 위한 앵무새, 랭체인이다 삐룩삐룩!"
+    />
+    <meta
+      name="twitter:image"
+      content="https://github.com/thousandyehyang-archive/langchain-quest/blob/main/docs/assets/parrot-og.png?raw=true"
+    />
   </head>
-  <body></body>
+  <body class="bg-light">
+    <!-- 배너 이미지 섹션 -->
+    <header class="header-banner"></header>
+
+    <!-- 제목과 본문 텍스트 섹션 -->
+    <section class="text-section py-5">
+      <div class="container text-center">
+        <h1 class="display-4 fw-bold mb-4">천혜향의 랭체인이다롱</h1>
+        <p class="lead">
+          🐦 : 나는 앵무새 랭-체인이다롱. 당신만을 위한 여행 동반자가
+          되어드릴게요!
+        </p>
+      </div>
+    </section>
+
+    <!-- 본문 섹션 -->
+    <div class="container text-center py-5">
+      <a href="#" class="btn btn-primary btn-lg">랭체인 탐험하기</a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center py-3 bg-dark text-white">
+      <p class="mb-0">© 2025 천혜향의 랭체인. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
